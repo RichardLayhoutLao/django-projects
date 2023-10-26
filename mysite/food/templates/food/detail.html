@@ -11,6 +11,7 @@
       <h3> {{item.item_name}}</h3>
       <h3> {{item.item_desc}}</h3>
       <h3> {{item.item_price}}</h3>
+      <a href="{% url 'food:delete_item' item.id %}">delete item</a>
     </div>
   </div>
 

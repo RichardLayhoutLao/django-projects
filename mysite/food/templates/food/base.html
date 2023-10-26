@@ -21,9 +21,9 @@
     <nav class="navbar navbar-dark bg-dark">
       <a href="nav-item">Food app</a>
       <div class="navbar">
-        <a href="nav-item">Add item</a>
-        <a href="nav-item">Remove item</a>
-        <a href="nav-item">View item</a>
+        <a class="nav-item" href="{% url 'food:create_item' %}">Add item</a>
+        <a class="nav-item">Remove item</a>
+        <a class="nav-item">View item</a>
       </div>
     </nav>
   </body>
